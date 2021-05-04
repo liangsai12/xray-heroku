@@ -5,5 +5,3 @@
 
 [VLESS介绍](https://www.v2fly.org/config/protocols/vless.html)
 
-# ！！！警告！！！
-# 目前本应用尚未开发结束，请勿使用！
