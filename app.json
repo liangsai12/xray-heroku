@@ -1,0 +1,18 @@
+{
+	"name":"Xray",
+	"description":"Deploy Xray to Heroku",
+	"keywords":["Xray", "V2Ray"],
+	"env":{
+		"UUID":{
+			"description":"Xray UUID",
+			"value":"a885ffa3-3ff9-4297-8fb3-388b1b783aad"
+		},
+		"WSPATH":{
+			"description":"Path of WebSocket",
+			"value":"/"
+		}
+	},
+	"website":"https://xkh01.tk",
+	"repository":"https://github.com/xkh01/xray-heroku",
+	"stack":"container"
+}
