@@ -10,7 +10,7 @@
         "WSPATH":{
             "description":"Path of WebSocket",
             "value":"/"
-        }
+        },
 		"NETWORK":{
 			"description":"Network",
 			"value":"tcp"
