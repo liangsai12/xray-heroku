@@ -1,4 +1,4 @@
-cat <<EOF >/etc/xray/config.json
+cat <<EOF > /etc/xray/config.json
 {
 	"inbounds":[{
 		"port":$PORT,
@@ -11,7 +11,7 @@ cat <<EOF >/etc/xray/config.json
 			"decryption":"none"
 		},
 		"streamSettings":{
-			"network":"$NETWORK",
+			"network":"ws",
 			"wsSettings":{
 				"path":"$WSPATH"
 			}

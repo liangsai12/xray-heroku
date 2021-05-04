@@ -10,13 +10,9 @@
 		"WSPATH":{
 			"description":"Path of WebSocket",
 			"value":"/"
-		},
-		"NETWORK":{
-			"description":"Network",
-			"value":"tcp"
 		}
 	},
-	"website":"https://xkh01.tk",
+	"website":"https://www.xkh01.tk",
 	"repository":"https://github.com/xkh01/xray-heroku",
 	"stack":"container"
 }
