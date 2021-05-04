@@ -11,7 +11,7 @@ cat <<EOF >/etc/xray/config.json
 			"decryption":"none"
 		},
 		"streamSettings":{
-			"network":"ws",
+			"network":"$NETWORK",
 			"wsSettings":{
 				"path":"$WSPATH"
 			}
