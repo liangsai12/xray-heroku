@@ -10,10 +10,26 @@ cat <<EOF > /etc/xray/config.json
 			}],
 			"decryption":"none"
 		},
-		"streamSettings":{
-			"network":"ws",
-			"wsSettings":{
-				"path":"$WSPATH"
+			"streamSettings": {
+			"network": "tcp",
+			"httpSettings": {
+				"path": "$WSPATH"
+			},
+			"tcpSettings": {
+				"header": {
+					"type": "http",
+					"response": {
+						"version": "1.1",
+						"status": "200",
+						"reason": "OK",
+						"headers": {
+							"Content-Type": ["application/octet-stream", "application/x-msdownload", "text/html", "application/x-shockwave-flash"],
+							"Transfer-Encoding": ["chunked"],
+							"Connection": ["keep-alive"],
+							"Pragma": "no-cache"
+						}
+					}
+				}
 			}
 		}
 	}],
